@@ -7,45 +7,34 @@
     android:layout_height="match_parent"
     tools:context=".pruebita2">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="260dp"
-        android:layout_marginEnd="12dp"
-        android:text="Ingresar"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF00FF"
+        android:text="arriba"
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        />
 
-    <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="286dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:inputType="text"
-        android:text="usuario"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="242dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="#7F52FF"
+        android:text="completo" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="280dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:text="contraseña"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="328dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/ic_launcher_background"
+        android:text="abajo"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+
+
+
+
+
 
 </FrameLayout>
